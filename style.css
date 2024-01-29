@@ -228,7 +228,52 @@
     margin-top: 10px;
   }
 
+.cardmodif {
+    padding: 2rem;
+}
+  .imgModif img{
+    width: 250px;
+
+  }
+
+  .cardmodif1 {
+    padding: 2rem;
+}
+  .imgModif1 img{
+    width: 240px;
+
+  }
   
+    .cardmodif2 {
+    padding: 3rem;
+    
+    
+}
+  .imgModif2 img{
+    width: 200px;
+
+  }
+
+  .cardmodif3 {
+    padding: 3.5rem;
+    
+    
+}
+  .imgModif3 img{
+    width: 200px;
+
+  }
+
+  .cardmodif4 {
+    padding: 3rem;
+    
+    
+}
+  .imgModif4 img{
+    width: 200px;
+
+  }
+
   .button {
     padding: 10px 15px;
     border-radius: 20px;
