@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzeria Business</title>
+  <meta property="og:title" content="Pizzeria Business" />
+  <meta property="og:site_name" content="Pizzeria Business" />
+
+
+  <meta property="og:image" content="./assets/ogPizzeria.png" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/mediasQueries.css" />
+  <link rel="shortcut icon" href="assets/pizzeriaIconoPestaña.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/d7a00b9964.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="headerSection">
+    <div class="imgLogo">
+      <img src="assets/pizzeriaIconoHeader.jpeg" alt="" />
+    </div>
+
+    <label for="burgerMenu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+    <input type="checkbox" id="burgerMenu" />
+
+    <nav class="headerNav">
+      <label for="burgerMenu"><i class="fa-solid fa-xmark"></i></label>
+      <ul>
+        <a href="#precios">
+          <li>Hacer Pedido</li>
+        </a>
+        <a href="#ourPizzas">
+          <li>Nuestras Pizzas</li>
+        </a>
+        <a href="#contacto">
+          <li>Contacto</li>
+        </a>
+
+        <li>Tu pedido <span id="cartBuble">5</span> <i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <section class="heroSection">
+    <h2>TODO LO QUE NECESITA TU PALADAR ESTA EN BUSINESS</h2>
+    <video src="assets/pizzaHeroVideo.mp4" autoplay muted loop></video>
+  </section>
+
+  <section class="descriptionSection">
+    <div class="textContainer">
+
+      <h3><span>BUO</span>NAS<span>ERA</span></h3>
+      <p>
+        "Business Pizza", la esencia misma de la pizza en la efervescente Buenos Aires desde 2015. Con 6 restaurantes en
+        Argentina, 5 en la capital y 1 en Catamarca, cada lugar refleja nuestra pasión y calidad. En BUSINESS creamos
+        experiencias que deleitan tus sentidos. Bienvenido a un festín de sabores que hará vibrar tu
+        paladar en cada bocado.
+
+      </p>
+      <a href="#">Ver Sucursales <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <img src="assets/pizzaDescription.jpg" alt="" />
+  </section>
+
+
+  <section class="section-card" id="precios">
+    <div class="cardsSection--Title">
+      <h3>Hace tu pedido, Nosotros te lo llevamos</h3>
+      <p>
+        Agrega al carrito, termina la compra y en 35min estaras saboreando una verdadera pizza italiana
+      </p>
+    </div>
+    <div class="cardsWraper">
+ 
+    </div>
+    <button class="btnAction" type="submit" id="seeMorePizzas">Ver mas Pizzas</button>
+  </section>
+
+
+  <section class="cardsSection" id="ourPizzas">
+    <div class="cardsSection--Title">
+      <h3>Nuestras Pizzas te van a volar la cabeza</h3>
+      <p>
+        Nuestra carta refleja la excelencia de nuestra historia culinaria. Este mes, presentamos las pizzas más
+        aclamadas por clientes, auténticas obras maestras que esperamos disfrutes plenamente:
+      </p>
+    </div>
+    <div class="cardsSection--CardsContainer">
+      <div class="CardsContainer--card">
+        <img src="./assets/ourPizzas/chedarYBacon.jpg" alt="pizza de chedar con bacon exquisita" />
+        <div class="card--description">
+          <h4>Cheddar y Bacon</h4>
+          <div class="description--star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <p>Mozzarella, olivas y bacón, bañada en cheddar.</p>
+        </div>
+      </div>
+      <div class="CardsContainer--card">
+        <img src="./assets/ourPizzas/Capresse.jpg" alt="pizza capresse exquisita" />
+        <div class="card--description">
+          <h4>Capresse</h4>
+          <div class="description--star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <p>
+            Mozzarella, con cassé de tomates frescos, aceite de albahaca y
+            olivas negras.
+          </p>
+        </div>
+      </div>
+      <div class="CardsContainer--card">
+        <img src="./assets/ourPizzas/aCaballo.jpg" alt="pizza a caballo exquisita" />
+        <div class="card--description">
+          <h4>Pizza a Caballo con Papas Fritas</h4>
+          <div class="description--star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <p>Mozzarella, huevos a la chapa, jamón cocido y papas paile.</p>
+        </div>
+      </div>
+      <div class="CardsContainer--card">
+        <img src="./assets/ourPizzas/morrones.jpg" alt="pizza de morrones exquisita" />
+        <div class="card--description">
+          <h4>Especial Morrones</h4>
+          <div class="description--star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+          <p>Mozzarella, jamón cocido, morrones, olivas y orégano.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="contacto" class="formSection">
+    <div class="formContainer">
+      <h2>Ingresa para ponerte en contacto y obtén un descuento para tu compra</h2>
+      <form action="#" method="post">
+        <span>
+          <label for="nombre">Nombre de Usuario:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ingresar Nombre de Usuario" required>
+        </span>
+
+        <span>
+          <label for="contraseña">Contraseña:</label>
+          <input type="password" name="contraseña" id="contraseña" placeholder="Ingresar Contraseña" required>
+        </span>
+
+        <button class="btnAction" type="submit">Ingresar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footerSection">
+    <p>
+      © 2024 Pizzeria Business Restaurante. Developed by Martinez Rodrigo
+    </p>
+  </footer>
+
+
+  <script src="./data.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

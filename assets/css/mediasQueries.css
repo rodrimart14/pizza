@@ -1,0 +1,189 @@
+@media (min-width: 1400px) {
+  .heroSection h2 {
+    font-size: 80px;
+  }
+  .textContainer h3 {
+    font-size: 90px;
+  }
+  .textContainer p {
+    font-size: 40px;
+  }
+  .textContainer a {
+    font-size: 40px;
+  }
+  .contactSection {
+    width: 1300px;
+    margin: 50px auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .cardsSection--Title h3 {
+    font-size: 70px;
+  }
+  .cardsSection--Title p {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1120px) {
+  .contactSection {
+    background-image: url(/assets/pizzasContactSection/1.png);
+    background-size: cover;
+  }
+  .contactSection--galery {
+    display: none;
+  }
+  .contactSection--text2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: var(--textColor);
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.34);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+}
+@media (max-width: 992px) {
+  .headerSection {
+    height: 75px;
+  }
+  .imgLogo {
+    height: 60px;
+    width: 60px;
+  }
+  .heroSection h2 {
+    width: 100%;
+  }
+
+  .headerNav {
+    display: none;
+  }
+  .headerSection label {
+    display: block;
+    font-size: 40px;
+  }
+
+  .headerNav {
+    z-index: 10;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .headerNav label {
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .headerNav ul {
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  #burgerMenu:checked + .headerNav {
+    display: block;
+  }
+  .descriptionSection {
+    overflow: hidden;
+  }
+  .textContainer h3 {
+    font-size: 40px;
+  }
+
+  .textContainer p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    font-style: italic;
+  }
+}
+.contactSection {
+  height: 850px;
+}
+@media (max-width: 660px) {
+  .heroSection video {
+    object-fit: contain;
+    height: 100%;
+  }
+  .heroSection h2 {
+    font-size: 30px;
+  }
+  .descriptionSection {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.959),
+        rgba(0, 0, 0, 0.616)
+      ),
+      url(/assets/pizzaDescription.jpg);
+    background-size: cover;
+  }
+  .textContainer {
+    width: 80%;
+  }
+
+  .descriptionSection img {
+    display: none;
+  }
+  .cardsSection {
+    width: 100%;
+  }
+  .cardsSection--Title h3 {
+    text-align: center;
+  }
+  .CardsContainer--card {
+    width: 200px;
+    height: 300px;
+  }
+  .footerSection {
+    font-size: 12px;
+  }
+}
+@media (max-width: 460px) {
+  .heroSection h2 {
+    font-size: 20px;
+  }
+  .cardsSection {
+    margin: 0 0;
+  }
+  .cardsSection--CardsContainer {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding-left: 100px;
+    padding-right: 20px;
+  }
+  .CardsContainer--card {
+    min-width: 200px;
+    height: 300px;
+    justify-content: flex-start;
+  }
+  .contactSection--text2 {
+    padding: 15px;
+  }
+  .contactSection--text2 h3:first-child {
+    font-size: 35px;
+  }
+  .contactSection--text2 h3 {
+    font-size: 40px;
+  }
+  .footerSection {
+    font-size: 10px;
+  }
+}
