@@ -303,6 +303,11 @@
     font-weight: 100;
   }
 
+.fa-chevron-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* <------------------Contacto------------------> */
 
 .form {
